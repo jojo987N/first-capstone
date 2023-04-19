@@ -448,22 +448,17 @@ h1 {
     padding-top: 14px;
   }
 
-
   @keyframes iconAnimation {
     from {
       /* opacity: 0; */
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 100%, 0% 55%, 95% 100%, 80% 100%, 40% 100%, 5% 25%, 2% 50%;
-
-      
     }
 
     to {
       /* opacity: 1; */
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 65%, 92% 42%, 95% 94%, 80% 70%, 40% 40%, 8% 50%, 2% 97%;
-
-     
     }
   }
 
@@ -499,8 +494,6 @@ h1 {
   .headline {
     padding-left: 15%;
     padding-bottom: 7%;
-
-    
     background-repeat: no-repeat;
 
     /* background-size: 50px, 50px, 100px, 50px, 80px, cover; */
@@ -556,22 +549,18 @@ h1 {
     transform: (5, 1);
   }
 
-  
+
   @keyframes iconAnimation {
     from {
       /* opacity: 0; */
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 100%, 0% 55%, 95% 100%, 80% 100%, 60% 100%, 5% 25%, 2% 50%;
-
-     
     }
 
     to {
       /* opacity: 1; */
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 45%, 63% 55%, 95% 64%, 80% 70%, 40% 85%, 5% 30%, 2% 93%;
-
-      
     }
   }
 
@@ -587,7 +576,7 @@ h1 {
     }
   }
 
- 
+
   .program .block {
     display: flex;
     gap: 3px;
@@ -635,7 +624,6 @@ h1 {
   }
 
   .block p {
-  
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 7px;
@@ -653,12 +641,12 @@ h1 {
     padding-bottom: 5%;
   }
 
-  
+
   .featured-speakers p {
     margin: 0;
   }
 
-  
+
   .speakers {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -666,7 +654,7 @@ h1 {
     margin-top: 5%;
   }
 
-  
+
   .footer-1 {
     background: url(img/footer-bg.png);
     padding: 10px;
