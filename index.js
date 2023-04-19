@@ -43,7 +43,7 @@ const data = [
   },
 ];
 
-const speaker = (data) => `<div class="speaker anim">
+const speaker = (data) => `<article class="speaker anim">
     <img src=${data.image} alt="">
     <div class="personal-info">
       <h3>${data.name}</h3>
@@ -51,7 +51,7 @@ const speaker = (data) => `<div class="speaker anim">
       <hr>
       <p>${data.biography}</p>
     </div>
-  </div>`;
+  </article>`;
 
 window.onload = () => {
   const header2 = document.querySelector('.header-2');

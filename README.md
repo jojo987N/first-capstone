@@ -130,7 +130,7 @@ In order to do it, fork this repository, create a new branch and open a Pull Req
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) for the Original design
 
 ## 📝 License <a name="license"></a>
 
