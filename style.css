@@ -549,7 +549,6 @@ h1 {
     transform: (5, 1);
   }
 
-
   @keyframes iconAnimation {
     from {
       /* opacity: 0; */
@@ -575,7 +574,6 @@ h1 {
       transform: translateY(0);
     }
   }
-
 
   .program .block {
     display: flex;
@@ -641,11 +639,9 @@ h1 {
     padding-bottom: 5%;
   }
 
-
   .featured-speakers p {
     margin: 0;
   }
-
 
   .speakers {
     display: grid;
@@ -653,7 +649,6 @@ h1 {
     gap: 20px;
     margin-top: 5%;
   }
-
 
   .footer-1 {
     background: url(img/footer-bg.png);
