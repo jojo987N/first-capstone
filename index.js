@@ -58,7 +58,6 @@ window.onload = () => {
   const hamburger = document.getElementById('hamburger');
 
   hamburger.onclick = () => {
-    // menu.classList.remove('menu-hide');
     header2.classList.remove('desktop');
   };
 

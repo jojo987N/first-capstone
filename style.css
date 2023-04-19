@@ -7,9 +7,6 @@ body {
   display: flex;
   justify-content: flex-end;
   background: #666;
-
-  /* padding-top: 5px;
-    padding-bottom: 5px; */
 }
 
 .header-1 ul {
@@ -64,9 +61,6 @@ body {
   /* background-size: cover; */
   padding-top: 5%;
   margin-top: 2px;
-
-  /* width: 100%;
-    box-sizing: border-box; */
 }
 
 h1 {
@@ -387,10 +381,6 @@ h1 {
   }
 
   .program .block {
-    /* display: flex;
-    flex-direction: column;
-     gap:12px;
-    margin-top: 40px; */
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     grid-auto-rows: minmax(102px, auto);
@@ -458,15 +448,6 @@ h1 {
     padding-top: 14px;
   }
 
-  /* url(img/dollar1.png),
-  url(img/zero-1.png),
-  url(img/image1.png),
-  url(img/cross-icon.png),
-  url(img/chess.png),
-  url(img/refresh.png),
-  url(img/zero-2.png),
-  url(img/yen.png),
-  url(img/bg.jpg); */
 
   @keyframes iconAnimation {
     from {
@@ -474,9 +455,7 @@ h1 {
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 100%, 0% 55%, 95% 100%, 80% 100%, 40% 100%, 5% 25%, 2% 50%;
 
-      /* transform: rotateX(-10deg); */
-
-      /* transform: translateY(80px); */
+      
     }
 
     to {
@@ -484,9 +463,7 @@ h1 {
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 65%, 92% 42%, 95% 94%, 80% 70%, 40% 40%, 8% 50%, 2% 97%;
 
-      /* transform: rotateX(0); */
-
-      /* transform: translateY(0); */
+     
     }
   }
 
@@ -523,18 +500,7 @@ h1 {
     padding-left: 15%;
     padding-bottom: 7%;
 
-    /* background: url(img/dollar1.png),
-    url(img/zero-1.png),
-    url(img/image1.png),
-    url(img/cross-icon.png),
-    url(img/chess.png),
-    url(img/refresh.png),
-    url(img/zero-2.png),
-    url(img/yen.png),
-    url(img/bg.jpg); */
-
-    /* background-position: 70% 8%, 80% 55%, 62% 80%, 90% 55%, 70% 55%; */
-
+    
     background-repeat: no-repeat;
 
     /* background-size: 50px, 50px, 100px, 50px, 80px, cover; */
@@ -590,30 +556,14 @@ h1 {
     transform: (5, 1);
   }
 
-  /* .headline .text-1{
-    width: 51%;
-    border: 4px solid white;
-    padding: 20px 15px 20px 20px;
-    color: #666666;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 900;
-    background: #f7f7f7;
-    box-shadow: 0 0 1px 0.5px #d9d9d9 inset;
-    animation: sectionAnimation 2s;
-  } */
-
+  
   @keyframes iconAnimation {
     from {
       /* opacity: 0; */
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 100%, 0% 55%, 95% 100%, 80% 100%, 60% 100%, 5% 25%, 2% 50%;
 
-      /* transform: rotateX(-10deg); */
-
-      /* transform: translateY(80px); */
+     
     }
 
     to {
@@ -621,9 +571,7 @@ h1 {
       background-size: 50px, 50px, 100px, 50px, 80px, 50px, 50px, 50px, cover;
       background-position: 70% 8%, 90% 45%, 63% 55%, 95% 64%, 80% 70%, 40% 85%, 5% 30%, 2% 93%;
 
-      /* transform: rotateX(0); */
-
-      /* transform: translateY(0); */
+      
     }
   }
 
@@ -639,59 +587,7 @@ h1 {
     }
   }
 
-  /* .date {
-    color: #666666;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 20px;
-    font-weight: 900;
-    margin: 0;
-    margin-top: 30px;
-    animation: sectionAnimation 2s;
-
-  } */
-
-  /* .text-2 {
-    color: #666666;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 400;
-    margin: 0;
-    margin-top: 15px;
-    animation: sectionAnimation 2s;
-  } */
-
-  /* .program{
-    background: url(img/unit.png);
-    padding-top: 2.3%;
-    padding-bottom: 2.3%;
-    height: 70vh;
-    margin: 0;
-  } */
-
-  /* .program h2 {
-    display: flex;
-    justify-content: center;
-    color: #e6e4e5;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 900;
-    word-spacing: 4px;
-
-  } */
-
-  /* .underline {
-    border:1px solid #f3532d;
-    width: 50px;
-    margin: auto;
-    opacity: 0.5;
-
-  } */
+ 
   .program .block {
     display: flex;
     gap: 3px;
@@ -739,14 +635,7 @@ h1 {
   }
 
   .block p {
-    /* color: #e6e4e5;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 17px;
-    font-weight: 900;
-    text-align: center;
-    margin: 0; */
+  
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 7px;
@@ -764,60 +653,12 @@ h1 {
     padding-bottom: 5%;
   }
 
-  /* .featured-speakers h2{
-    display: flex;
-    justify-content: center;
-    color: #272A31;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 700;
-    word-spacing: 4px;
-    margin: 0;
-    margin-bottom: 15px;
-  } */
-
-  /* .featured-speakers hr {
-    width: 10%;
-    text-align: left;
-    margin-left: 10px;
-  } */
-
-  /* .featured-speakers .speaker {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-  } */
-
-  /* .featured-speakers h3 {
-    margin: 0;
-    color: #272A31;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 700;
-    margin-bottom: 5px;
-  } */
-
-  /* .featured-speakers h4 {
-    margin: 0;
-    color: #ff8080;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 700;
-    font-style: italic;
-  } */
+  
   .featured-speakers p {
     margin: 0;
   }
 
-  /* .featured-speakers .personal-info {
-    padding-top: 19px;
-  } */
+  
   .speakers {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -825,14 +666,7 @@ h1 {
     margin-top: 5%;
   }
 
-  /* .featured-speakers .personal-info p{
-    color: #272A31;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-  } */
+  
   .footer-1 {
     background: url(img/footer-bg.png);
     padding: 10px;
