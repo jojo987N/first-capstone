@@ -1,3 +1,6 @@
+<p align="center" >
+<a href="https://jojo987n.github.io/first-capstone/"><img src="img/capstone-1.gif" alt="Portfolio Scrolling" /></a>
+</p>
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
